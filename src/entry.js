@@ -1,9 +1,10 @@
 /**
- * Created by zwwill on 2017/8/28.
+ * Created by DIEW on 2018/1/21.
  */
 import App from './App.vue'
 import router from './router'
-// import { sync } from 'vuex-router-sync'
+// import store from './store'
+import { sync } from 'vuex-router-sync'
 import * as filters from './filters'
 import mixins from './mixins'
 

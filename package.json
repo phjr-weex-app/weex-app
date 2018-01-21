@@ -28,6 +28,7 @@
   "dependencies": {
     "vue": "^2.5.11",
     "vue-router": "^3.0.1",
+    "vuex-router-sync": "^5.0.0",
     "weex-html5": "^0.4.1",
     "weex-vue-render": "^0.12.26"
   },

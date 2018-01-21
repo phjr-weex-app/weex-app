@@ -84,7 +84,7 @@
 </style>
 <script>
     var navigator = weex.requireModule('navigator')
-    import util from '../util';
+    import util from '../assets/util';
     export default {
         props:["title","items"],
         data () {

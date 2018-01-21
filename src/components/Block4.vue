@@ -45,7 +45,6 @@
         text-align: center;
         color:#fff;
         lines:1;
-        white-space: nowrap;
         text-overflow: ellipsis;
     }
 </style>

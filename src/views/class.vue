@@ -100,7 +100,7 @@
 </style>
 
 <script>
-    import util from '../util';
+    import util from '../assets/util';
     import refresher from '../components/refresh.vue';
     import Header3 from '../components/Header3.vue';
     var navigator = weex.requireModule('navigator')

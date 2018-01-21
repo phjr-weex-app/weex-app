@@ -242,7 +242,7 @@
 
     import Header4 from '../components/Header4.vue';
 
-    import util from '../util';
+    import util from '../assets/util';
     var navigator = weex.requireModule('navigator');
     export default {
         data () {

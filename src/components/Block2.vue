@@ -93,7 +93,6 @@
         margin-top: 16px;
         overflow: hidden;
         lines:1;
-        white-space: nowrap;
         text-overflow: ellipsis;
     }
     .gd-info{
@@ -104,7 +103,6 @@
         color:#7f7f7f;
         overflow: hidden;
         lines:1;
-        white-space: nowrap;
         text-overflow: ellipsis;
     }
     .gd-price{
@@ -114,7 +112,6 @@
         color:#b4282d;
         overflow: hidden;
         lines:1;
-        white-space: nowrap;
         text-overflow: ellipsis;
     }
     .gd-more{
@@ -131,7 +128,7 @@
 </style>
 <script>
     var navigator = weex.requireModule('navigator')
-    import util from '../util';
+    import util from '../assets/util';
     export default {
         props:["newGoods","hotGoods","head","hasMore","goods"],
         data () {

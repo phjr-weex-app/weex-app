@@ -17,7 +17,12 @@ export default {
                 url: 'http://cdn.zwwill.com/yanxuan/' + api
                 // url: 'http://10.242.69.181:8089/yanxuan/' + api
             }, callback)
-        }
+        },
+        loadImage(imgName){
+            var image = require('../assets/images/'+imgName);
+            console.log(image);
+            return image;
+        },
 
     }
 }

@@ -62,7 +62,8 @@ let utilFunc = {
             }
         }
         return null;
-    }
+    },
+    
 };
 
 export default utilFunc;

@@ -1,6 +1,5 @@
 const path = require('path');
-const fs = require('fs-extra');
-const webpack = require('webpack');
+const fs = require('fs-extra');const webpack = require('webpack');
 const config = require('./config');
 const webEntry = {
   index:config.entryFilePath
@@ -112,6 +111,14 @@ const webConfig = {
         loader: 'babel-loader'
       }],
       exclude: /node_modules(?!(\/|\\).*(weex).*)/
+    },
+    {
+      test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+      loader: 'url-loader',
+      options: {
+        limit: 10000,
+        name: '[name].[ext]'
+      }
     },
     {
       test: /\.vue(\?[^?]+)?$/,

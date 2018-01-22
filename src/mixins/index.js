@@ -20,7 +20,7 @@ export default {
         },
         loadImage(imgName){
             var image = require('../assets/images/'+imgName);
-            console.log(image);
+            // console.log(image);
             return image;
         },
 

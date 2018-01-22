@@ -4,7 +4,8 @@
       <!-- <figure class="tap-bar-img tap-bar-img-index" v-bind:style="{height:commonStyle.height,width:commonStyle.width,backgroundImage:pIndexKey==='index'? indexImgActive:indexImg,backgroundSize:commonStyle.backgroundSize}"></figure> -->
       <!-- <text class="tap-bar-img iconfont" :class="pIndexKey==='index'? 'bar-active':''">&#xe660;</text> -->
       <image :src="loadImage('jianguo.png')" class="tap-bar-img"></image>
-      <text>首页</text>
+      <!-- <image style="width:500px;height:500px" src="https://vuejs.org/images/logo.png"></image> -->
+      <!-- <text>首页</text> -->
     </div>
      <div class="tap-bar-item" @click="tapFooter('bid','/')">
       <text class="tap-bar-img iconfont" :class="pIndexKey==='bid'? 'bar-active':''">&#xe661;</text>

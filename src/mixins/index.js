@@ -23,6 +23,12 @@ export default {
             // console.log(image);
             return image;
         },
+        serverStatic(){
+            var server = 'http://192.168.1.101:8000/';
 
+            return {
+                images:server+'images/'
+            };
+        }
     }
 }
